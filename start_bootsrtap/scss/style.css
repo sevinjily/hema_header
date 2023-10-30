@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#creative .header-box {
+  position: fixed;
+  padding: 30px;
+}
+#creative .header-box .logo a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 700;
+}
+#creative .header-box .logo a:hover {
+  color: white;
+}
+#creative .header-box .menu ul li {
+  list-style: none;
+}
+#creative .header-box .menu ul li a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 700;
+}
+#creative .header-box .menu ul li a:hover {
+  color: white;
+}
+
+#favorite {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+#favorite .box {
+  width: 100%;
+  height: 100%;
+}
+#favorite .text-box {
+  text-align: center;
+  height: 100%;
+  margin-left: 100px;
+  flex-wrap: wrap;
+}
+#favorite .text-box .hr-box h1 {
+  color: white;
+  width: 60%;
+}
+#favorite .text-box .hr-box hr {
+  width: 30%;
+  color: #f4623a;
+  height: 5px;
+  flex-wrap: wrap;
+}
+#favorite .text-box .pa-box {
+  padding: 50px;
+}
+#favorite .text-box .pa-box p {
+  color: white;
+}
+#favorite .text-box .pa-box a {
+  background-color: #f4623a;
+  color: white;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 8mm;
+}/*# sourceMappingURL=style.css.map */

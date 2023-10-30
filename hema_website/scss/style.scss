@@ -1,0 +1,175 @@
+#header {
+  .header-box {
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      padding: 20px;
+    }
+    .menu {
+      position: relative;
+      ul {
+        li {
+          list-style: none;
+          a {
+            margin-left: 30px;
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+
+            font-weight: 600;
+            i {
+              margin-top: 5px;
+              display: inline-block;
+            }
+          }
+          .dropdown1 {
+            // height: auto;
+
+            opacity: 0;
+            visibility: hidden;
+            width: 60%;
+            height: 75vh;
+            position:absolute;
+            top: 100%;
+            left: 0;
+            box-shadow: 0 0 20px 0 rgb(227, 223, 216);
+            transition: 0.3s ease-in-out;
+            bottom: -4px;
+            ul{
+              padding: 5px;
+              li {
+                &:first-child{
+                  margin-top: 10px;
+                }
+                a{
+                  padding: 0;
+                  
+                }
+              }
+            }
+          }
+          &.home {
+            &:hover {
+              .dropdown1 {
+                transform: translateY(-4px);
+                opacity: 1;
+                visibility: visible;
+              }
+            }
+          }
+        
+          .dropdown2{
+            opacity: 0;
+            visibility: hidden;
+            width: 100vh;
+            height: 70vh;
+            position:absolute;
+            top: 100%;
+            left: 0;
+            box-shadow: 0 0 20px 0 rgb(227, 223, 216);
+            transition: 0.3s ease-in-out;
+            bottom: -4px;
+            ul{
+              width: 20%;
+              h6{
+                border: 1px solid red;
+                width: 100%;
+                text-align: center;
+                margin-top: 15px;
+
+              
+              }
+              // padding: 40px;
+              li {
+                width: 20px;
+                padding: 8px;
+                &:first-child{
+                  margin-top: 10px;
+                }
+                a{
+                  width: 100%;
+                font-weight:500;   
+                               
+                }
+              }
+            }
+            
+          }
+          &.shop {
+            width: 100%;
+
+            &:hover {
+              .dropdown2 {
+                transform: translateY(-4px);
+                opacity: 1;
+                visibility: visible;
+              }
+            }
+          }
+          .dropdown3{
+            opacity: 0;
+            visibility: hidden;
+            width: 100vh;
+            height: 70vh;
+            position:absolute;
+            top: 100%;
+            left: 0;
+            box-shadow: 0 0 20px 0 rgb(227, 223, 216);
+            transition: 0.3s ease-in-out;
+            bottom: -4px;
+            ul{
+              width: 20%;
+              h6{
+                border: 1px solid red;
+                width: 100%;
+                text-align: center;
+                margin-top: 15px;
+                
+              
+              }
+              // padding: 40px;
+              li {
+                width: 20px;
+                padding: 8px;
+                &:first-child{
+                  margin-top: 10px;
+                }
+                a{
+                  width: 100%;
+                font-weight:500;   
+                               
+                }
+              }
+            }
+            
+          }
+          &.product {
+            width: 100%;
+
+            &:hover {
+              .dropdown3 {
+                transform: translateY(-4px);
+                opacity: 1;
+                visibility: visible;
+              }
+            }
+          }
+          }
+        }
+        hr{
+          padding: 0;
+          width: 100%;
+          color: darkgrey;
+        }
+      }
+    }
+    .wishlist {
+      .ico-box {
+        i {
+          padding: 20px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
